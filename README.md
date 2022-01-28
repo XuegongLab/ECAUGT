@@ -16,3 +16,6 @@ Read our pre-print paper at https://www.biorxiv.org/content/10.1101/2021.07.21.4
 
 # Usage
 You can view the tutorial on our document page http://xglab.tech/ecaugt/index.html.
+
+# Warning
+ECAUGT can not work successfully on the Windows platform beacause of the bugs of multiprocessing package. You should use this package on the Linux platform.
