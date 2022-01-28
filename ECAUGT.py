@@ -139,7 +139,7 @@ def _seq2boolquery(metadata_condition,include_children = True, exlude_Unclassifi
                     # find all childs in the table
                     stack_father = []
                     stack_child = []
-                    stack_father.append("T cell")
+                    stack_father.append(w_pair[1])
                     while not len(stack_father)==0:
                         father = stack_father.pop()
                         stack_child.append(father)
